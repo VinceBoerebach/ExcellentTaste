@@ -24,7 +24,7 @@ namespace Restaurant_Taster.Models
         public bool DrinkorFood { get; set; }
         public string Description { get; set; }
         public double Price { get; set; }
-        public string Tax { get; set; }
+        public int Tax { get; set; }
         public string Category { get; set; }
 
     }
@@ -33,7 +33,7 @@ namespace Restaurant_Taster.Models
     {
         public int CustomerId { get; set; }
         public string CustomerName { get; set; }
-        public int Phone { get; set; }
+        public string Phone { get; set; }
         [EmailAddress]
         public string Email { get; set; }
 

@@ -13,7 +13,7 @@ namespace Restaurant_Taster.Migrations
                     {
                         CustomerId = c.Int(nullable: false, identity: true),
                         CustomerName = c.String(),
-                        Phone = c.Int(nullable: false),
+                        Phone = c.String(),
                         Email = c.String(),
                     })
                 .PrimaryKey(t => t.CustomerId);
@@ -26,7 +26,7 @@ namespace Restaurant_Taster.Migrations
                         DrinkorFood = c.Boolean(nullable: false),
                         Description = c.String(),
                         Price = c.Double(nullable: false),
-                        Tax = c.String(),
+                        Tax = c.Int(nullable: false),
                         Category = c.String(),
                     })
                 .PrimaryKey(t => t.FoodId);

@@ -21,7 +21,7 @@ namespace Restaurant_Taster.Migrations
                 {
                     CustomerName = "Test",
                     Email = "Test@test.test",
-                    Phone = 0678255339
+                    Phone = "0678255339"
                 },
                 Food = new Food
                 {
@@ -29,7 +29,7 @@ namespace Restaurant_Taster.Migrations
                     Description = "Testdesc",
                     DrinkorFood = true,
                     Price = 2.50,
-                    Tax = "9%"
+                    Tax = 9
                 },
                 Table = 2,
                 TimeDate = new DateTime(2019,11,11)

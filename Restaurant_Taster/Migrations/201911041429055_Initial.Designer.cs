@@ -13,7 +13,7 @@ namespace Restaurant_Taster.Migrations
         
         string IMigrationMetadata.Id
         {
-            get { return "201911041348250_Initial"; }
+            get { return "201911041429055_Initial"; }
         }
         
         string IMigrationMetadata.Source

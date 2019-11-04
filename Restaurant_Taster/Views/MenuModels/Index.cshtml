@@ -18,7 +18,7 @@
             @Html.DisplayNameFor(model => model.TimeDate)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.Customers.CustomerName)
+            @Html.DisplayNameFor(model => model.Customer.CustomerName)
         </th>
 
 
@@ -34,7 +34,7 @@
         @Html.DisplayFor(modelItem => item.TimeDate)
     </td>
     <td>
-        @Html.DisplayFor(modelItem => item.Customers.CustomerName)
+        @Html.DisplayFor(modelItem => item.Customer.CustomerName)
     </td>
     <td>
         @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |

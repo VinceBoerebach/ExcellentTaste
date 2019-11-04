@@ -14,7 +14,7 @@ namespace Restaurant_Taster.Models
         }
         public DbSet<MenuModel> MenuDB { get; set; }
         public DbSet<Food> FoodDB { get; set; }
-        public DbSet<Customers> CustomersDB { get; set; }
+        public DbSet<Customer> CustomersDB { get; set; }
 
     }
 }

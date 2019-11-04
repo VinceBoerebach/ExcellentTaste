@@ -15,10 +15,10 @@ namespace Restaurant_Taster.Models
         [DataType(DataType.Date)]
         public DateTime TimeDate { get; set; }
         public Food Food { get; set; }
-        public Customers Customers { get; set; }
+        public Customer Customer { get; set; }
     }
 
-    public class Food : MenuModel
+    public class Food
     {
         public int FoodId { get; set; }
         public bool DrinkorFood { get; set; }
@@ -29,7 +29,7 @@ namespace Restaurant_Taster.Models
 
     }
 
-    public class Customers : MenuModel
+    public class Customer
     {
         public int CustomerId { get; set; }
         public string CustomerName { get; set; }
